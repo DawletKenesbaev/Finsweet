@@ -11,7 +11,8 @@ const options = {
     method: 'GET',
     params: { q: 'Bitcoin', lang: 'en', sort_by: 'relevancy', page: '1' },
     headers: {
-        'x-api-key': 'Pfe8gDS-TQj5Vl_G8dtx6KovxR16c4asK4uTZLIaEPM'
+        'x-api-key': 'vEW4zblW8q7x8c_bNxefeQlwrovv-VmWbRgrk0ExTao'
+        // additional key : HJFlDk1O7ZGxpfuz_WyMxxt1XCXksP8vJoweDzJNS8s
     },
 
 };
@@ -31,6 +32,6 @@ fetch(url, options)
            <p class="blog__card-par">${summary}</p>
        </div>`
         })
-        blog.innerHTML = fatchdatatemp.join()
+        blog.innerHTML = fatchdatatemp.join('')
     })
     .catch(err => console.error(err));
