@@ -26,7 +26,8 @@ form.addEventListener('click', (event) => {
     }
   });
 login.addEventListener('click',()=>{
-    if (username.value && userpassword.value && userpassword.length>8) {
+    if (username.value && userpassword.value && userpassword.value.length>8) {
+      console.log();
         alert('you are logged succesfully')
         username.classList.remove('danger')
         userpassword.classList.remove('danger')
@@ -36,7 +37,6 @@ login.addEventListener('click',()=>{
         username.classList.add('danger')
         userpassword.classList.add('danger')
         }
-
 })
 
 
