@@ -1,0 +1,111 @@
+.about {
+    margin-top: 50px;
+    margin-bottom: 122px;
+    display: flex;
+    @include herofirst {
+        flex-direction: column;
+    }
+    &__card {
+        max-width: 600px;
+        min-height: 241px;
+        padding: 83px 27px 83px 83px;
+        background-color: Lavender;
+        @include herofirst {
+            max-width: 100%;
+            padding: 83px;
+        }
+        @include mobile {
+            max-width: 90%;
+            text-align: center;
+            padding: 30px;
+        }
+        &-span {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #232536;
+        }
+        &-title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 40px;
+            letter-spacing: -1px;
+            color: #232536;
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+        &-des {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #6D6E76;
+        }
+    }
+}
+.team {
+    display: flex;
+    margin: 70px 0;
+    padding: 0 60px;
+    @include herofirst {
+        flex-direction: column;
+        align-items: center;
+    }
+    @include mobile {
+        padding: 0 15px;
+    }
+    &__img {
+        width: 50%;
+        @include herofirst {
+           width: 80%;
+        }
+    }
+    &__card {
+        max-width: 600px;
+        padding: 70px 40px;
+        @include herofirst {
+            padding:40px 20px;
+            text-align: center;
+         }
+        &-title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            letter-spacing: -2px;
+            color: #232536;
+            @include mobile {
+               font-size: 23px ;
+            }
+        }
+        &-des {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #232536;
+            margin: 16px 0;
+            @include mobile {
+                font-size: 17px ;
+                line-height: 22px;
+             }
+        &-par {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #232536;
+        }
+    }
+    }
+}
+.team2 {
+    @include herofirst {
+    flex-direction: column-reverse;
+    margin-bottom: 120px;
+}
+}

@@ -1,0 +1,25 @@
+@import './variables';
+@import './mixin';
+@import './font';
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: $mainbackgroundcolor;
+    overflow-x: hidden;
+    font-family: 'Sen';
+  }
+  .container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 40px;
+    @include mobile{
+      padding: 0 15px
+    }
+  }
+
+@import './all-blocks/all-blocks.scss';

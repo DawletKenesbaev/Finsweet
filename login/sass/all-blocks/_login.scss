@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+section {
+    margin: 70px 0 150px 0;
+  }
+  section .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+  }
+  
+  .input {
+    width: 60%;
+    outline: none;
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #232536;
+    border: none;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #232536;
+    margin-bottom: 70px;
+  }
+  
+  .login {
+    margin-top: 30px;
+    width: 60%;
+    padding: 15px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #232536;
+    border: none;
+    background-color: #FFD050;
+    transition: 0.3s;
+  }
+  
+  .login:hover {
+    background-color: rebeccapurple;
+  }
+  
+  @media (max-width: 568px) {
+    .section-title {
+      font-size: 35px;
+    }
+    .input {
+      width: 60%;
+      outline: none;
+      padding: 5px 10px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 28px;
+      color: #232536;
+    }
+    .login {
+      margin-top: 30px;
+      width: 60%;
+      padding: 10px 10px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 32px;
+      color: #232536;
+      border: none;
+      background-color: #FFD050;
+    }
+  }
+.acti {
+  border:2px green solid;
+}
+  
+.danger {
+  border:2px red solid;
+}

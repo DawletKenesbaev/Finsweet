@@ -1,0 +1,32 @@
+@mixin tablet {
+    @media (max-width:768px) {
+       @content; 
+    }
+}
+@mixin navbar {
+    @media (max-width:792px) {
+       @content; 
+    }
+}
+@mixin herofirst {
+    @media (max-width:992px) {
+       @content; 
+    }
+}
+@mixin mobile {
+    @media (max-width:576px) {
+       @content; 
+    }
+}
+@mixin part1 {
+    @media (max-width:1000px) {
+       @content; 
+    }
+}
+@mixin transition {
+    transition: 0.6s ;
+}
+@mixin hovers {
+    background-color: transparent;
+    transform: scale(1.02);
+}

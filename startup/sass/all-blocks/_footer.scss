@@ -1,0 +1,31 @@
+footer {
+    margin-top: 70px;
+    width: 100%;
+    background-color: $secondbackgroundcolor;
+    min-height: 164px;
+    padding: 66px 0 80px 0;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__bar {
+        display: flex;
+        column-gap: 30px;
+        &-item {
+            list-style: none;
+            @include transition
+        }
+        &-link {
+            text-decoration: none;
+        }
+        &-item:hover{
+            transform: scaleY(1.06);
+        }
+        &-img {
+            width: 26px;
+        }
+
+    }
+}

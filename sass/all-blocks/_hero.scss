@@ -1,0 +1,65 @@
+.herosection {
+    min-height: calc(100vh - 80px);
+    background: url('../images/manwithsuit.png') center/cover no-repeat;
+}
+.hero {
+    max-width: 803px;
+    padding: 128px 0 192px 0;
+    @include mobile {
+        padding: 40px 0;
+        text-align: center;
+    }
+    &__str {     
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: $maintextcolor;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -2px;
+        color: $maintextcolor;
+        margin: 24px 0;
+    }
+    &__span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+        &-name {
+                color: #FFD050;
+        }
+    }
+    &__des {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 16px 0 48px 0;
+    }
+    &__btn {
+        padding: 16px 48px;
+        width: 204px;
+        height: 56px;
+        background: #FFD050;
+        @include transition();
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #232536;
+        border-color: #FFD050;
+        cursor: pointer;
+    }
+    &__btn:hover {
+       @include hovers();
+    }
+}

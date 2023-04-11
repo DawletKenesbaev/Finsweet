@@ -1,0 +1,91 @@
+.searchblog {
+    width: 100%;
+    height: 76px;
+    padding: 24px;
+    margin: 57px 0;
+    outline: none;
+    border:none ;
+    border-radius: 6px;
+    font-size: 21px;
+}
+.searchblog::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+}
+.blog {
+    margin: 0 auto;
+    &__card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px 20px;
+        column-gap: 20px;
+        @include tablet {
+            flex-direction: column;
+        }
+        &-bar {
+            max-width: 400px;
+          
+           margin: 0 auto;
+           max-width: 500px;
+         
+        column-gap: 50px;
+        margin: 20px 0;
+        }
+        &-img {
+            width: 300px;
+            height: 250px;
+            background-position: center;
+            background-size: cover;
+            
+            @include tablet {
+                max-width: 80%;
+                margin: 20px 0;
+            }
+            
+        }
+        &-span {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #592EA9;
+
+        }
+        &-title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            letter-spacing: -2px;
+            color: #232536;
+            margin: 20px 0 34px 0;
+        }
+        &-des {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #6D6E76;
+            margin:17px 0 30px 0;
+        }
+    }
+}
+.btnPage {
+    width: 30px;
+    height: 40px;
+    background-color:#232536;
+    border: none;
+    border-radius: 8px;
+    margin: 8px;
+}
+.activeBtn {
+    background-color: rgb(235, 210, 24);
+    width: 33px;
+    height: 44px;
+}
