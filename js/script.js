@@ -11,7 +11,7 @@ const options = {
     method: 'GET',
     params: { q: 'Bitcoin', lang: 'en', sort_by: 'relevancy', page: '1' },
     headers: {
-        'x-api-key': 'vEW4zblW8q7x8c_bNxefeQlwrovv-VmWbRgrk0ExTao'
+        'x-api-key': 'leR2Kz-q3s3ExDerhCHpA0BVgQ1_Rh5SA8sr4WbMQMw'
         // additional key : HJFlDk1O7ZGxpfuz_WyMxxt1XCXksP8vJoweDzJNS8s
     },
 
