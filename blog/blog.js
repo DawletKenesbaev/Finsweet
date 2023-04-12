@@ -7,7 +7,7 @@ hamburger.addEventListener('click', ()=>{
 })
 const form = document.querySelector('.form');
 const btn = document.querySelector('.submit');
-const box =document.querySelector('.boxmain')
+const box =document.querySelector('.boxmain');
 
 
 
@@ -54,9 +54,7 @@ form.addEventListener('submit', (e)=>{
         fullname:fullname,
         title:title,
         des:des,
-        img:img
     }
-  
     fetch(url, {
         method: 'POST',
         headers: { 'Content-type': 'application/json' },
@@ -106,4 +104,5 @@ box.addEventListener('click', (e)=>{
     })
    }
 })
+
 
