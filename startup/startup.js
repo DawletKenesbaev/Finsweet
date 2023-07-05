@@ -28,7 +28,7 @@ function fetchData() {
         method: 'GET',
         params: { q: 'Bitcoin', lang: 'en', sort_by: 'relevancy', page: '1' },
         headers: {
-            'x-api-key': 'leR2Kz-q3s3ExDerhCHpA0BVgQ1_Rh5SA8sr4WbMQMw'
+            'x-api-key': 'pVGKvfcZ0yYVnumeq1C9Pg04sfL6mIy5UyY5xf1PKs8'
             // additional key : HJFlDk1O7ZGxpfuz_WyMxxt1XCXksP8vJoweDzJNS8s
         },
     
